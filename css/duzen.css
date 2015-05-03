@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin: auto; background: #f1f1f1; font: 14px Arial}
+h1,h2,h3,input,form,button,select,textarea,ul,ol,li {padding: 0; margin: 0; border: 0; list-style: none}
+*:focus {outline: 0}
+
+#veriListesi {border: 1px solid #ddd; padding: 10px 10px 0 10px; border-radius: 3px; width: 1200px; margin: 20px auto; background: #fff}
+
+#aramaFormu{
+	width:437px;
+	height:35px;
+	overflow:hidden;
+	background-image:url(http://i.imgur.com/k212A1d.png);
+}
+#aramaFormu input{
+	width:305px;
+	height:19px;
+	margin-left:40px;
+	margin-top:7px;
+	float:left;
+	border:none;
+	background-color:transparent;
+	font-size:14px;
+	font-family:Calibri, Tahoma, Arial, Sans-Serif;
+	outline:none;
+	color:#000;
+}
+#aramaFormu button{
+	width:82px;
+	height:35px;
+	float:right;
+	text-indent:-9999px;
+	border:none;
+	background-color:transparent;
+	cursor:pointer;
+}
